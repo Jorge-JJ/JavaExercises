@@ -11,7 +11,6 @@
 *   * * * * *
 * */
 
-
 import java.util.Scanner;
 
 public class Main {
@@ -47,10 +46,11 @@ public class Main {
     public static void main(String[] args) {
         Scanner sn = new Scanner(System.in);
         int num;
-        System.out.print("Ingrese el número de asteriscos: ");
+        System.out.print("Ingrese el número de filas y columnas: ");
         num=sn.nextInt();
 
         dibujar(num);
+        System.out.println("\n\n");
         cuadradoX(num);
     }
 }
